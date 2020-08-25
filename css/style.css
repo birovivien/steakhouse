@@ -1,0 +1,505 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #210909;
+  font-family: 'Cardo', serif;
+}
+
+.container-fluid {
+  padding: 2% 10%;
+}
+
+.container-fluid-no-ms {
+  padding: 2% 0;
+}
+
+.navbar {
+  padding: 1% 10%;
+}
+
+.navbar-brand {
+  font-family: 'Lovers Quarrel', cursive;
+  font-size: 4.5rem;
+}
+
+.nav-link {
+  font-size: 1.25rem;
+  margin: -1rem .5rem 0 .5rem;
+}
+
+.navbar-brand, .nav-link {
+  color: #fff;
+}
+
+.navbar-toggler-icon {
+  color: #fff;
+}
+
+/* First Page */
+.title-heading {
+  font-size: 5vw;
+  font-weight: bold;
+  color: #fff;
+}
+
+.title-image {
+  width: 70%;
+}
+
+/* Title Button */
+button {
+  color: #fff;
+  text-align: center;
+  padding: 10px 15px;
+  margin: 2rem 0 3rem 0;
+}
+
+.button-one {
+  text-align: center;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.button-one {
+  border-radius: 4px;
+  background-color: #210909;
+  border: 1px solid #fff;
+  width: 200px;
+  transition: all 0.5s;
+}
+
+.button-one span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button-one span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button-one:hover span {
+  padding-right: 25px;
+}
+
+.button-one:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/* Second Page */
+#our-story {
+  color: #000;
+  padding: 10% 0;
+}
+
+.our-story {
+  background-color: #fff;
+  color: #000;
+}
+
+.discover-text {
+  font-family: 'Lovers Quarrel', cursive;
+  font-size: 4rem;
+  color: #8f6e21;
+  line-height: 1.3;
+  padding: 4% 5%;
+}
+
+.our-story-title {
+  padding-left: 2%;
+}
+
+.our-story-text {
+  padding-left: 2%;
+  line-height: 1.5;
+  padding-bottom: 8%;
+}
+
+.about-us-text {
+  padding-left: 2%;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #8f6e21;
+}
+
+.about-us-text:hover {
+  text-decoration: none;
+  color: #8f6e21;
+  opacity: .6;
+}
+
+.cooking-steak-img {
+  width: 100%;
+  padding: 0;
+}
+
+/* Discover Our Menu */
+.skill-row {
+  color: #fff;
+  width: 80%;
+  margin: 5% auto 12%;
+  text-align: left;
+  line-height: 2;
+}
+
+.title-to-right {
+  text-align: right;
+}
+
+.discover-title {
+  width: 40%;
+  float: left;
+  margin-right: 10%;
+  font-size: 3vw;
+  line-height: 1.5;
+}
+
+.fancy-text {
+  color: #8f6e21;
+  font-family: 'Lovers Quarrel', cursive;
+  font-size: 4.5rem;
+  line-height: .7;
+}
+
+.discover-our-menu-text {
+  padding-top: 2%;
+}
+
+.appetizer-img {
+  width: 40%;
+  float: left;
+  margin: 0 10% 10% 0;
+}
+
+.sidedish-img {
+  width: 40%;
+  float: right;
+  margin: 20% 0 10% 5%;
+}
+
+.sidedish-text {
+  width: 40%;
+}
+
+.dessert-img {
+  width: 40%;
+  float: left;
+  margin: 15% 10% 0 0;
+}
+
+.appetizer-text, .sidedish-text, .dessert-text {
+  line-height: 1.4;
+}
+
+/* Discover Upcoming Events */
+#events {
+  color: #000;
+  padding: 10% 0;
+}
+
+.events {
+  background-color: #fff;
+  color: #000;
+  padding: 4% 5%;
+}
+
+.event-text {
+  padding-left: 2%;
+  line-height: 1.4;
+}
+
+.right-align {
+  margin: 2rem 0 3rem 0;
+  text-align: right;
+}
+
+.more-events-text {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #8f6e21;
+}
+
+.more-events-text:hover {
+  text-decoration: none;
+  color: #8f6e21;
+  opacity: .6;
+}
+
+.events-img {
+  width: 100%;
+  padding: 0;
+}
+
+/* Discover The Best Ingredients */
+#best-ingredients {
+  text-align: center;
+  color: #fff;
+}
+
+.best-ingredients-title {
+  font-size: 3rem;
+  padding-bottom: 2rem;
+  margin-top: -2%;
+}
+
+.best-ingredients-text {
+  font-size: 1.25rem;
+  width: 50%;
+  margin: auto;
+}
+
+.heading-img {
+  text-align: center;
+}
+
+.ingredients-img {
+  width: 75%;
+  padding-bottom: 5%;
+}
+
+
+
+
+/* Book A Table */
+.restaurant-pic {
+  width: 100%;
+  opacity: .5;
+}
+
+.row {
+  color: #fff;
+}
+
+.text-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.text-on-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.reservation-text {
+  font-family: 'Lovers Quarrel', cursive;
+  font-size: 5rem;
+}
+
+.book-text {
+  font-size: 3.2rem;
+}
+
+/* Button On Text */
+button {
+  color: #fff;
+  text-align: center;
+  padding: 10px 15px;
+  margin: 2rem 0 3rem 0;
+}
+
+.button-two {
+  text-align: center;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.button-two {
+  border-radius: 4px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  width: 220px;
+  transition: all 0.5s;
+}
+
+.button-two span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button-two span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button-two:hover span {
+  padding-right: 25px;
+}
+
+.button-two:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/* Footer */
+.colored-text {
+  color: #8f6e21;
+}
+
+.colored-fancy-text {
+  color: #8f6e21;
+  font-family: 'Lovers Quarrel', cursive;
+  font-size: 5rem;
+}
+
+.mailto {
+  text-decoration: none;
+  color: #fff;
+}
+
+.mailto:hover {
+  text-decoration: none;
+  color: #fff;
+  opacity: .6;
+}
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 991px) and (max-width: 1471px) {
+
+  .discover-text {
+    font-size: 2rem;
+    padding-left: 2%;
+  }
+
+  .our-story-title {
+    font-size: 1.5rem;
+  }
+
+  .our-story-text {
+    font-size: .75rem;
+    padding-bottom: 0;
+  }
+
+  #our-story {
+    padding: 0;
+  }
+
+  .events-img {
+    height: 50%;
+  }
+
+  #events {
+    vertical-align: middle;
+  }
+
+  .party-text2, .party-text3 {
+    display: none;
+  }
+
+  .best-ingredients-text {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .fancy-text {
+    font-size: 10vw;
+  }
+
+  .title-heading {
+    font-size: 8vw;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+  }
+
+  .our-story-title {
+    font-size: 7vw;
+    margin-top: -10%;
+  }
+
+  .button-one {
+    width: 100%;
+    font-size: 4vw;
+  }
+
+  .button-two {
+    margin: 0;
+    font-size: 4vw;
+  }
+
+  .best-ingredients-text {
+    font-size: 4vw;
+    width: 100%;
+    margin: auto;
+  }
+
+  /* Discover Our Menu */
+  .skill-row {
+    width: 100%;
+    text-align: center;
+  }
+
+  .title-to-right {
+    text-align: center;
+  }
+
+  .discover-title {
+    font-size: 5vw;
+    width: 100%;
+    float: none;
+  }
+
+  .discover-our-menu-text {
+    padding-top: 3%;
+    line-height: 1.3;
+  }
+
+  .appetizer-img {
+    width: 100%;
+    float: none;
+    margin-right: 0;
+  }
+
+  .sidedish-img {
+    width: 100%;
+    float: none;
+    margin-right: 0;
+  }
+
+  .sidedish-text {
+    width: 100%;
+  }
+
+  .dessert-img {
+    width: 100%;
+    float: none;
+    margin-right: 0;
+  }
+
+  .appetizer-text, .sidedish-text {
+    padding-bottom: 5rem;
+  }
+
+  .best-ingredients-title {
+    font-size: 5vw;
+    padding-bottom: 1rem;
+  }
+
+
+  .container {
+    text-align: center;
+  }
+
+  .reservation-text, .book-text {
+    display: none;
+  }
+}
